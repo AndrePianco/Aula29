@@ -27,12 +27,10 @@ public class Q1 {
 
                     System.out.println("Comparação de igualdade:");
                     if (S1.equals(S2)) {
-                        System.out.println("As Strings são iguais");
+                        System.out.println("As Strings comparadas com Equals são iguais");
                     } else {
-                        System.out.println("As Strings são diferentes");
+                        System.out.println("As Strings comparadas com Equals são diferentes");
                     }
-
-                    System.out.println("Comparação de igualdade ignorando caixas altas:");
 
                     if (S1.equalsIgnoreCase(S2)) {
                         System.out.println("As Strings comparadas com EqualsIgnorecase são iguais");
@@ -45,7 +43,6 @@ public class Q1 {
                     } else {
                         System.out.println("As Strings comparadas com CompareTo são diferentes");
                     }
-
                     break;
 
                 case 'd':
